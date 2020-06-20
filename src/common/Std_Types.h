@@ -21,7 +21,7 @@ typedef unsigned short uint16_least;
 typedef int sint32_least;
 typedef unsigned int uint32_least;
 typedef float float32;
-typedef long float float64;
+typedef float float64;
 
 #define CPU_TYPE_8      8
 #define CPU_TYPE_16     16
@@ -63,12 +63,12 @@ typedef uint8 Std_ReturnType;
 #define STD_OFF 0x00u
 #define STD_ON 0x01u
 
-struct Std_VersionInfoType {
+typedef struct Std_VersionInfoType {
     uint16 vendorID;
     uint16 moduleID;
     uint8 sw_major_version;
     uint8 sw_minor_version;
     uint8 sw_patch_version;
-};
+} Std_VersionInfoType;
 
 #endif //AUTO_OS_STD_TYPES_H

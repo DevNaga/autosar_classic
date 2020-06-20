@@ -1,0 +1,6 @@
+#ifndef __AUTO_CLASSIC_AUTOSAR_DEM_TYPES_H__
+#define __AUTO_CLASSIC_AUTOSAR_DEM_TYPES_H__
+
+#endif
+
+
